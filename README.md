@@ -1,22 +1,6 @@
-<h1 align="center">✨ The GOAT — Modern Forex Trading Platform Landing Page 💹</h1>
-
-<p align="center">
-  <a href="https://github.com/AbhishekMane06/The GOAT">
-    <img src="public/banner.png" alt="The GOAT Banner" />
-  </a>
-</p>
-
-<p align="center">
-  <em>A sleek, professional forex trading platform featuring stunning dark theme design, interactive animations, and modern UI components.</em>
-</p>
+<h1 align="center">✨ HelixMind — Accelerating biological advancements</h1>
 
 <hr>
-
-## 🚀 Live Demo
-
-🌐 **[Click here to explore The GOAT](https://trade-flow-12.vercel.app/)** 
-
----
 
 ## ✨ Features
 
@@ -47,7 +31,7 @@
 ## 🗂️ Folder Structure
 
 <pre>
-The GOAT/
+HelixMind/
 ├── constants/
 │   └── index.jsx             # App constants (nav links, features, pricing, testimonials)
 ├── public/
@@ -94,8 +78,8 @@ The GOAT/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/AbhishekMane06/The GOAT.git
-cd The GOAT
+git clone https://github.com/HelixMind/landing-page.git
+cd landing-page
 ```
 
 2. **Install dependencies:**
@@ -135,7 +119,7 @@ Strategic use of indigo gradients highlights important CTAs and interactive elem
 
 ## 🎯 Design Philosophy
 
-The GOAT embraces a **modern dark theme** that:
+HelixMind embraces a **modern dark theme** that:
 - 🌙 Reduces eye strain for users working with financial data
 - 📊 Provides excellent contrast for data visualization
 - 💎 Creates a professional, premium feel
@@ -171,26 +155,3 @@ All content is centralized in `constants/index.jsx`:
 - Footer links
 
 ---
-
-## 📩 Contact
-
-📧 Email: **[maneabhishek2003@gmail.com](mailto:maneabhishek2003@gmail.com)**
-
-🔗 Socials:  
-**[LinkedIn](https://www.linkedin.com/in/abhishek-mane-9491422b8)** | **[GitHub](https://github.com/AbhishekMane06)**
-
----
-
-## 📄 License
-
-This project is open source and available under the **MIT License**.
-
----
-
-<p align="center">
-  <strong>Built with ❤️ using React, Vite, and modern web technologies</strong>
-</p>
-
-<p align="center">
-  ⭐ Star this repo if you found it helpful!
-</p>
