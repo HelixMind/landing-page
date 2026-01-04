@@ -32,16 +32,18 @@ const Hero = () => {
               href="https://helix-mind.vercel.app/"
               rel="noopener noreferrer"
               target="_blank"
+              className="w-full lg:w-fit"
             >
-              <Button className="py-6">Get Started</Button>
+              <Button className="w-full lg:w-fit py-6">Get Started</Button>
             </a>
 
             <a
               href="https://github.com/orgs/HelixMind/"
               rel="noreferre noopener"
               target="_blank"
+              className="w-full lg:w-fit"
             >
-              <Button variant="ghost" className="py-6">
+              <Button variant="ghost" className="w-full lg:w-fit py-6">
                 <i className="bx bxl-github text-xl"></i>
                 GitHub
               </Button>
