@@ -28,27 +28,24 @@ const Hero = () => {
 
           {/* cta */}
           <div className="col sm:flex-row items-center justify-center gap-4 lg:items-start">
-            <Button className="py-6">
-              <a
-                href="https://helix-mind.vercel.app/"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="text-black clash-display"
-              >
-                Get Started
-              </a>
-            </Button>
-            <Button variant="ghost" className="py-6">
-              <a
-                href="https://github.com/orgs/HelixMind/"
-                rel="noreferre noopener"
-                target="_blank"
-                className="flex items-center gap-2 clash-display"
-              >
+            <a
+              href="https://helix-mind.vercel.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button className="py-6">Get Started</Button>
+            </a>
+
+            <a
+              href="https://github.com/orgs/HelixMind/"
+              rel="noreferre noopener"
+              target="_blank"
+            >
+              <Button variant="ghost" className="py-6">
                 <i className="bx bxl-github text-xl"></i>
                 GitHub
-              </a>
-            </Button>
+              </Button>
+            </a>
           </div>
         </div>
 
