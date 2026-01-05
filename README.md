@@ -45,10 +45,10 @@ HelixMind/
 │   │   ├── NavBar.jsx        # Responsive navigation bar
 │   │   └── BadgeCard.jsx   # Pricing card component
 │   ├── pages/
-│   │   └── HomePage.jsx      # Main home page layout
+│   │   └── Home.jsx      # Main home page layout
 │   ├── sections/
 │   │   ├── CaSection.jsx     # Call-to-action section
-│   │   ├── PerformanceMetrics.jsx # Interactive features showcase
+│   │   ├── CoreFeatures.jsx # Interactive features showcase
 │   │   ├── HeroSection.jsx   # Hero section with CTA
 │   │   ├── LogoCarousel.jsx  # Animated partner logos
 │   │   ├── OurAdvantage.jsx  # Pricing plans grid
