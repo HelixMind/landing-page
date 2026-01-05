@@ -15,13 +15,13 @@ const Footer = () => {
                 <img src="./logo.png" alt="" className="w-6 h-6" />
                 {/* <LuCommand className="w-6 h-6 text-indigo-400" /> */}
 
-                <h3 className="clash-display text-lg text-zinc-100">
-                  The GOAT
+                <h3 className="font-['Inter'] text-lg text-zinc-100 font-semibold">
+                  HelixMind
                 </h3>
               </div>
 
               <p className="text-sm text-zinc-400/90">
-                Empowering traders with advanced forex trading solutions.
+                Transform your research with HelixMind’s cutting-edge AI tools.
               </p>
 
               {/* Social Icons */}
@@ -63,7 +63,7 @@ const Footer = () => {
           {/* Bottom Section */}
           <div className="mt-8 pt-8 border-t border-white/10">
             <p className="text-sm text-zinc-400/80 text-center clash-display">
-              &copy; {new Date().getFullYear()} The GOAT. All rights reserved.
+              &copy; {new Date().getFullYear()} HelixMind. All rights reserved.
             </p>
           </div>
         </div>

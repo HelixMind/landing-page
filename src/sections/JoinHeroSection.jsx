@@ -21,7 +21,7 @@ export default function JoinHeroSection({ className }) {
           </h1>
 
           <p className="text-[0.9rem] lg:text-lg text-zinc-300/80 mb-8 max-w-2xl text-center">
-            For serious traders ready to level up, join the GOAT Inner Circle. Limited spots, unlimited opportunity.
+            For serious traders ready to level up, join HelixMind Inner Circle. Limited spots, unlimited opportunity.
           </p>
         </div>
 

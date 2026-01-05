@@ -120,10 +120,10 @@ const JoinForm = () => {
           />
 
           <FloatingTextarea
-            label="WHY DO YOU WANT TO JOIN THE GOAT INNER CIRCLE?"
+            label="WHY DO YOU WANT TO JOIN HelixMind INNER CIRCLE?"
             value={formData.whyJoin}
             onChange={(v) => handleChange("whyJoin", v)}
-            helper="Tell us about your trading goals, what you bring to the community, and why you deserve a spot among the GOATs."
+            helper="Tell us about your trading goals, what you bring to the community, and why you deserve a spot among HelixMinds."
           />
 
           <FloatingTextarea

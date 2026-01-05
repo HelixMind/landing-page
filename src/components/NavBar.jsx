@@ -1,7 +1,21 @@
+// react
 import React, { useState } from "react";
-import { Command, ChevronDown } from "lucide-react";
-import { navLinks } from "../../constants";
+
+// lucide-react
+import { ChevronDown } from "lucide-react";
+
+// react-router
 import { Link } from "react-router";
+import { NavLink } from "react-router";
+
+// lib
+import {cn} from "../lib/utils.js"
+
+// ui
+import { Button } from "./ui/button";
+
+// constants
+import { navLinks } from "../../constants";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -9,7 +23,7 @@ const NavBar = () => {
   return (
     <>
       {/* NAVBAR */}
-      <header className="fixed top-3.5 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-2xl h-14 bg-[#1b1b1b]/10 backdrop-blur-md border border-white/10 scale-95 rounded-full px-6 flex items-center justify-between">
+      <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-fit max-w-2xl h-14 bg-[#1b1b1b]/10 backdrop-blur-md border-2 border-[#b0e545]/20 scale-95 rounded-full px-6 flex items-center justify-between lg:gap-16">
         {/* Logo */}
         <div
           className="flex items-center gap-2 hover:-translate-y-1 transition duration-200"
@@ -17,8 +31,8 @@ const NavBar = () => {
         >
           <Link to="/" className="flex item-center gap-2">
             <img src="./logo.png" alt="" className="w-5 h-5" />
-            <span className="font-semibold text-base clash-display text-white cursor-pointer">
-              The GOAT
+            <span className="mr-6 lg:mr-0 font-semibold text-base font-['Inter'] text-white cursor-pointer">
+              HelixMind
             </span>
           </Link>
         </div>
@@ -28,22 +42,32 @@ const NavBar = () => {
           <ul className="flex items-center gap-6">
             {navLinks.map((link) => (
               <li key={link.id}>
-                <Link
+                <NavLink
                   to={link.href}
-                  className="text-sm text-zinc-300 hover:text-indigo-300 hover:-translate-y-1 transition duration-300 inline-block"
+                  className={({isActive}) => cn(
+                    "text-sm text-zinc-300 hover:text-primary hover:-translate-y-1 transition duration-300 inline-block",
+                    isActive && "text-primary"
+                  )}
                 >
                   {link.title}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>
 
-          <button
-            id="#CaSection"
-            className="bg-gradient-to-r from-indigo-400 to-indigo-600 px-4 py-2 text-white rounded-full clash-display hover:-translate-y-0.5 shadow-indigo-900 transition duration-200"
+          <a
+            href="https://helix-mind.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="w-full lg:w-fit"
           >
-            Join The Circle
-          </button>
+            <Button
+              id="#CaSection"
+              className="capitalize"
+            >
+              Get Started
+            </Button>
+          </a>
         </div>
 
         {/* Mobile Button */}
@@ -53,11 +77,11 @@ const NavBar = () => {
         >
           <ChevronDown
             className={`w-7 h-7 transition-all duration-300 ${
-              open ? "rotate-180 text-indigo-400" : "rotate-0"
+              open ? "rotate-180 text-primary" : "rotate-0"
             }`}
           />
         </button>
-      </header>
+      </nav>
 
       {/* Mobile Dropdown Overlay */}
       {open && (
@@ -94,12 +118,19 @@ const NavBar = () => {
             </li>
           ))}
 
-          <button
-            onClick={() => setOpen(false)}
-            className="text-base mt-4 bg-gradient-to-r from-indigo-400 to-indigo-600 px-4 py-3 rounded-full text-white clash-display hover:-translate-y-1 transition duration-200 shadow-indigo-900"
+          <a
+            href="https://helix-mind.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            Join The Circle
-          </button>
+            <button
+              onClick={() => setOpen(false)}
+              className="text-base mt-4 bg-gradient-to-r from-[#b0e545] to-[#8ac122]
+ px-4 py-3 rounded-full text-black clash-display hover:-translate-y-1 transition duration-200 shadow-indigo-900 capitalize"
+            >
+              Get Started
+            </button>
+          </a>
         </ul>
       </div>
     </>

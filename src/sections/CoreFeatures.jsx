@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { features } from "../../constants";
 import { motion, AnimatePresence } from "framer-motion";
 
-const PerformanceMetrics = () => {
+const CoreFeatures = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
@@ -31,15 +31,15 @@ const PerformanceMetrics = () => {
       <section id="features" className="container mx-auto px-4 py-24">
         <div className="max-w-2xl mb-20">
           <h2 className="text-3xl lg:text-5xl md:text-6xl mb-6 tracking-tight clash-display text-left">
-            Performance
+            Core
             <br />
             <span className="font-medium clash-display grad1">
-              Metrics
+              Features
             </span>
           </h2>
 
           <p className="text-[0.9rem] lg:text-lg text-zinc-300/80 text-left">
-            Detailed metrics that reveal how our strategies perform across market conditions, highlighting precision, consistency, and disciplined risk control.
+            Our core features are designed to streamline research, enhance accuracy, and unlock deeper insights using advanced AI technology.
           </p>
         </div>
 
@@ -113,4 +113,4 @@ const PerformanceMetrics = () => {
   );
 };
 
-export default PerformanceMetrics;
+export default CoreFeatures;

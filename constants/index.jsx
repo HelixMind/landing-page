@@ -1,6 +1,6 @@
 import { Crown, ShieldCheck, BarChart3, GraduationCap } from "lucide-react";
 
-import { Percent, Users, TrendingUp, CheckCircle2 } from "lucide-react";
+import { Brain, Dna, Shuffle, Layers } from "lucide-react";
 
 const navLinks = [
   {
@@ -13,51 +13,43 @@ const navLinks = [
     title: "About",
     href: "/about",
   },
-  {
-    id: "Results",
-    title: "Results",
-    href: "/results",
-  },
-  {
-    id: "Join",
-    title: "Join",
-    href: "/join",
-  },
 ];
 
 const logos = ["/log1.png", "/log2.png", "/log3.png", "/log4.png", "/log5.png"];
 const extendedLogos = [...logos, ...logos, ...logos, ...logos, ...logos];
 
+
+
 const features = [
   {
-    title: "Success Rate %",
+    title: "AI Biological Predictions",
     description:
-      "Reflects the proportion of trades that closed in profit, demonstrating the effectiveness and consistency of our trading strategies over time.",
-    icon: <Percent className="w-6 h-6" />,
+      "Generate biologically meaningful insights using advanced AI models trained on complex genomic and molecular data.",
+    icon: <Brain className="w-6 h-6" />,
     image: "/fit1.png",
     isActive: true,
   },
   {
-    title: "Active Members",
+    title: "Genomic Data Processing",
     description:
-      "Represents the number of traders actively using the platform, engaging with live signals, market insights, and trading opportunities.",
-    icon: <Users className="w-6 h-6" />,
+      "Accurately parse and analyze FASTA and genomic datasets through reliable bioinformatics pipelines.",
+    icon: <Dna className="w-6 h-6" />,
     image: "/fit3.png",
     isActive: false,
   },
   {
-    title: "Million Volume",
+    title: "Mutation Simulation",
     description:
-      "Indicates the total trading volume executed through the platform, highlighting strong liquidity and sustained market participation.",
-    icon: <TrendingUp className="w-6 h-6" />,
+      "Simulate mutations and evolutionary pathways to explore outcomes and validate scientific hypotheses.",
+    icon: <Shuffle className="w-6 h-6" />,
     image: "/fit4.png",
     isActive: false,
   },
   {
-    title: "Successful Trades",
+    title: "End-to-End Research Workflow",
     description:
-      "Shows the total number of trades that have been successfully completed through disciplined execution and controlled risk management.",
-    icon: <CheckCircle2 className="w-6 h-6" />,
+      "From raw biological data to actionable insights, HelixMind streamlines the entire research process.",
+    icon: <Layers className="w-6 h-6" />,
     image: "/fit2.png",
     isActive: false,
   },
@@ -66,31 +58,31 @@ const features = [
 const advantagePoints = [
   {
     _id: 1,
-    badge: "Research",
+    badge: "AI Research",
+    title: "Scientific Intelligence",
     description:
-      "Our team of professional analysts identify opportunities through rigorous research. We focus on fundamentals, not speculation.",
-    title: "Research Excellence",
+      "HelixMind applies advanced AI models to biological data, enabling accurate predictions grounded in real scientific principles.",
   },
   {
     _id: 2,
-    badge: "Execution",
+    badge: "Accuracy",
+    title: "Reliable Pipelines",
     description:
-      "Real-time market analysis, strategic alerts, and disciplined execution. Timing and precision drive results.",
-    title: "Timely Execution",
+      "From FASTA parsing to genomic analysis, our pipelines are built for precision, reproducibility, and real research use cases.",
   },
   {
     _id: 3,
-    badge: "Membership",
+    badge: "Workflow",
+    title: "Unified Platform",
     description:
-      "Limited to serious investors only. Quality over quantity. Every member is vetted for commitment and experience.",
-    title: "Selective Membership",
+      "One platform for prediction, simulation, and analysis—eliminating fragmented tools and accelerating research timelines.",
   },
   {
     _id: 4,
-    badge: "Discipline",
+    badge: "Validation",
+    title: "Research-Ready Results",
     description:
-      "We teach strategic position management and risk assessment. Emotional decisions are replaced with systematic analysis.",
-    title: "Disciplined Approach",
+      "Designed with scientific validation in mind, HelixMind supports benchmarking, collaboration, and real-world research impact.",
   },
 ];
 
@@ -100,49 +92,49 @@ const testimonials = [
     role: "Professional Trader",
     image: "/av1.jpg",
     content:
-      "Since joining The GOAT Inner Circle, my trading strategies have reached a whole new level. The exclusive insights and guidance here are invaluable.",
+      "Since joining HelixMind Inner Circle, my trading strategies have reached a whole new level. The exclusive insights and guidance here are invaluable.",
   },
   {
     name: "Sarah Johnson",
     role: "Crypto Fund Manager",
     image: "./av2.jpg",
     content:
-      "Being part of The GOAT Inner Circle has completely transformed how our fund approaches crypto. The tools and networking opportunities are unmatched.",
+      "Being part of HelixMind Inner Circle has completely transformed how our fund approaches crypto. The tools and networking opportunities are unmatched.",
   },
   {
     name: "David Wilson",
     role: "Early Forex Investor",
     image: "/av3.jpg",
     content:
-      "I never realized the difference a community could make until I joined The GOAT Inner Circle. The support and market intelligence are game-changing.",
+      "I never realized the difference a community could make until I joined HelixMind Inner Circle. The support and market intelligence are game-changing.",
   },
   {
     name: "Mei Zhang",
     role: "DeFi Developer",
     image: "/av4.jpg",
     content:
-      "The insights I’ve gained from The GOAT Inner Circle are unlike anything I’ve seen elsewhere. It’s boosted our trading efficiency dramatically.",
+      "The insights I’ve gained from HelixMind Inner Circle are unlike anything I’ve seen elsewhere. It’s boosted our trading efficiency dramatically.",
   },
   {
     name: "Javier Rodriguez",
     role: "Forex Security Expert",
     image: "/av5.jpg",
     content:
-      "What sets The GOAT Inner Circle apart is the expert guidance on security and risk management. I feel far more confident navigating the markets now.",
+      "What sets HelixMind Inner Circle apart is the expert guidance on security and risk management. I feel far more confident navigating the markets now.",
   },
   {
     name: "James Thompson",
     role: "Portfolio Manager",
     image: "/av6.jpg",
     content:
-      "Joining The GOAT Inner Circle has simplified managing complex portfolios. The shared strategies are both practical and highly effective.",
+      "Joining HelixMind Inner Circle has simplified managing complex portfolios. The shared strategies are both practical and highly effective.",
   },
   {
     name: "Camila Martinez",
     role: "Forex Analyst",
     image: "/av7.jpg",
     content:
-      "Access to The GOAT Inner Circle has sharpened my analysis and workflow. The insights and community support make all the difference.",
+      "Access to HelixMind Inner Circle has sharpened my analysis and workflow. The insights and community support make all the difference.",
   },
 ];
 
@@ -223,7 +215,7 @@ const ourStory = [
   {
     title: "The Genesis",
     description:
-      "Founded by a group of elite traders who dominated traditional markets for over a decade, The GOAT Inner Circle emerged from the need for a truly exclusive community where high-level intelligence could be shared without dilution.",
+      "Founded by a group of elite traders who dominated traditional markets for over a decade, HelixMind Inner Circle emerged from the need for a truly exclusive community where high-level intelligence could be shared without dilution.",
   },
   {
     title: "The Evolution",

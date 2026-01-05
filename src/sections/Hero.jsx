@@ -34,7 +34,7 @@ const Hero = () => {
               target="_blank"
               className="w-full lg:w-fit"
             >
-              <Button className="w-full lg:w-fit py-6">Get Started</Button>
+              <Button className="w-full lg:w-fit py-6 capitalize">Get Started</Button>
             </a>
 
             <a

@@ -11,7 +11,7 @@ const BadgeCard = ({ badge, title, description,}) => {
 
         {/* Price */}
         <div className="mb-4 mt-2">
-          <span className="text-4xl font-bold clash-display text-indigo-300">
+          <span className="text-4xl font-bold clash-display text-primary">
             {title}
           </span>
         </div>

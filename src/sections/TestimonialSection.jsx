@@ -22,7 +22,7 @@ const TestimonialSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-normal mb-4">Trusted By Traders</h2>
           <p className="text-zinc-400 text lg:text-lg">
-            Join thousands of Satisfied traders on The GOAT
+            Join thousands of Satisfied traders on HelixMind
           </p>
         </div>
 
