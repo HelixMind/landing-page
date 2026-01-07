@@ -30,10 +30,10 @@ const CoreFeatures = () => {
     <>
       <section id="features" className="container mx-auto px-4 py-24">
         <div className="max-w-2xl mb-20">
-          <h2 className="text-3xl lg:text-5xl md:text-6xl mb-6 tracking-tight clash-display text-left">
+          <h2 className="text-3xl lg:text-5xl md:text-6xl font-medium! mb-6 tracking-tight clash-display text-left">
             Core
             <br />
-            <span className="font-medium clash-display grad1">
+            <span className="clash-display grad1">
               Features
             </span>
           </h2>
@@ -56,13 +56,13 @@ const CoreFeatures = () => {
                     onClick={() => setActiveIndex(index)}
                     className={`centered-row gap-4 cursor-pointer hover:bg-indigo-500/10 p-2 transition-all duration-300 ease-out border rounded-xl ${
                       activeIndex === index
-                        ? "border-indigo-400/40 bg-indigo-500/10"
+                        ? "border-primary/40 bg-indigo-500/10"
                         : "border-transparent"
                     }`}
                   >
                     <div>{feature.icon}</div>
                     <div className="col gap-1">
-                      <h3 className="text-base clash-display grad1">
+                      <h3 className="text-base clash-display grad1 font-bold">
                         {feature.title}
                       </h3>
                       <p className="text-sm text-zinc-300/80">

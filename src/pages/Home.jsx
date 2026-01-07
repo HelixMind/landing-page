@@ -3,18 +3,20 @@ import CoreFeatures from "../sections/CoreFeatures.jsx";
 import Hero from "../sections/Hero.jsx";
 import LogoCarousel from "../sections/LogoCarousel.jsx";
 import OurAdvantage from "../sections/OurAdvantage.jsx";
+import ResearchInsight from "../sections/ResearchInsight.jsx"
 import TestimonialSection from "../sections/TestimonialSection.jsx";
 
 
 const Home = () => {
   return (
     <>
-      <div className="bg-black mx-auto">
+      <div className="mx-auto bg-black">
         <Hero />
         {/* <LogoCarousel /> */}
         <CoreFeatures />
+        <ResearchInsight />
         <OurAdvantage />
-        <TestimonialSection />
+        {/* <TestimonialSection /> */}
         <CaSection />
       </div>
     </>

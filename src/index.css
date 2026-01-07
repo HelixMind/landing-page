@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Inter:ital,wght@0,100..900;1,100..900&display=swap");
 
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 
 @import "tailwindcss";
@@ -25,7 +28,7 @@
 }
 
 .clash-display {
-  font-family: "clash01", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
 }
 
 /* Google Fonts */

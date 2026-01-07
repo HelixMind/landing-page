@@ -141,7 +141,7 @@ const testimonials = [
 const footerLinks = [
   {
     _id: "001",
-    title: "Trading",
+    title: "Pages",
     links: ["Markets", "Trading Fees"],
   },
   {
@@ -155,6 +155,45 @@ const footerLinks = [
     links: ["Privacy Policy", "Terms of Services"],
   },
 ];
+
+const footerNavItems = [
+  {
+    _id: "001",
+    title: 'Home',
+    href: '/'
+  },
+  {
+    _id: "002",
+    title: 'About',
+    href: '/about'
+  },
+]
+
+const legal = [
+    {
+    _id: "001",
+    title: 'Privacy Policy',
+    href: '#'
+  },
+  {
+    _id: "002",
+    title: 'Terms of Services',
+    href: '#'
+  },
+]
+
+const forDevelopers = [
+    {
+    _id: "001",
+    title: 'GitHub Org',
+    href: 'https://github.com/HelixMind'
+  },
+  {
+    _id: "002",
+    title: 'Resources',
+    href: '#'
+  },
+]
 
 // custom
 const teamMembers = [
@@ -389,6 +428,9 @@ export {
   advantagePoints,
   testimonials,
   footerLinks,
+  footerNavItems,
+  legal,
+  forDevelopers,
   teamMembers,
   corePrinciples,
   ourStory,

@@ -1,7 +1,13 @@
+// react-router
+import { NavLink } from "react-router";
+
+// lib
+import { cn } from "../lib/utils.js";
+
 import { LuCommand } from "react-icons/lu";
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
-import { footerLinks } from "../../constants";
+import { legal, forDevelopers ,footerNavItems } from "../../constants";
 
 const Footer = () => {
   return (
@@ -41,28 +47,77 @@ const Footer = () => {
             </div>
 
             {/* Footer Links */}
-            {footerLinks.map(({ _id, title, links }) => (
-              <div key={_id} className="space-y-4">
-                <h4 className="clash-display text-base text-zinc-200">{title}</h4>
-                <ul className="space-y-2">
-                  {links.map((item, index) => (
-                    <li key={index}>
-                      <a
-                        href="#features"
-                        className="text-sm text-zinc-400 hover:text-indigo-300 hover:ml-3 transition2"
-                      >
-                        {item}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+
+            {/* pages */}
+            <div className="space-y-4">
+              <h4 className="clash-display text-base text-zinc-200 font-medium">
+                Pages
+              </h4>
+              <ul className="space-y-2">
+                {footerNavItems.map(({ _id, title, href }) => (
+                  <li key={_id}>
+                    <NavLink
+                      key={_id}
+                      to={href}
+                      className={({ isActive }) =>
+                        cn(
+                          "text-sm text-zinc-400 hover:text-primary hover:ml-3 transition2",
+                          isActive && "text-primary"
+                        )
+                      }
+                    >
+                      {title}
+                    </NavLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* for developers */}
+            <div className="space-y-4">
+              <h4 className="clash-display text-base text-zinc-200 font-medium capitalize">
+                For Developers
+              </h4>
+              <ul className="space-y-2">
+                {forDevelopers.map(({ _id, title, href }) => (
+                  <li key={_id}>
+                    <a
+                      key={_id}
+                      href={href}
+                      className="text-sm text-zinc-400 hover:text-primary hover:ml-3 transition2"
+                    >
+                      {title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* legal */}
+            <div className="space-y-4">
+              <h4 className="clash-display text-base text-zinc-200 font-medium capitalize">
+                Legal
+              </h4>
+              <ul className="space-y-2">
+                {legal.map(({ _id, title, href }) => (
+                  <li key={_id}>
+                    <a
+                      key={_id}
+                      href={href}
+                      className="text-sm text-zinc-400 hover:text-primary hover:ml-3 transition2"
+                    >
+                      {title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
           </div>
 
           {/* Bottom Section */}
           <div className="mt-8 pt-8 border-t border-white/10">
-            <p className="text-sm text-zinc-400/80 text-center clash-display">
+            <p className="text-sm text-zinc-400/80 text-center montserrat">
               &copy; {new Date().getFullYear()} HelixMind. All rights reserved.
             </p>
           </div>
