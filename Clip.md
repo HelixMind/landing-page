@@ -14,3 +14,4 @@ We shorten feedback loops to learn faster. Decisions are tested, reviewed, and r
 
 5. Automate
 Once a process is proven, we automate it. This frees attention for higher-leverage thinking and continuous improvement.
+.
