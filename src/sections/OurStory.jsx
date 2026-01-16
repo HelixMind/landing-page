@@ -5,8 +5,8 @@ export default function OurStory() {
     <>
       <section id="prices" className="container mx-auto px-4 py-24">
         <div className="max-w-2xl mx-auto text-center mb-12">
-          <h2 className="text-3xl lg:text-5xl md:text-6xl mb-6 clash-display">
-            Our <span className="grad-1 clash-display">Story</span>
+          <h2 className="text-3xl lg:text-5xl md:text-6xl mb-6 clash-display font-medium">
+            Our <span className="grad1 clash-display">Story</span>
           </h2>
         </div>
 
@@ -15,7 +15,7 @@ export default function OurStory() {
             {ourStory.map((story, index) => (
               <div
                 key={index}
-                className={`rounded-xl centered-row gap-4 cursor-pointer hover:bg-indigo-500/10 p-4 transition-all duration-300 ease-out`}
+                className={`rounded-xl centered-row gap-4 cursor-pointer hover:bg-gray-500/10 p-4 transition-all duration-300 ease-out`}
               >
                 <div>{story.icon}</div>
                 <div className="col gap-1">

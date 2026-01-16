@@ -24,17 +24,16 @@ export default function AboutHeroSection({ className }) {
         </div>
 
         <div className=" max-w-4xl relative z-10">
-          <h1 className="text-4xl text-center md:text-7xl mb-4 tracking-tight">
-            <span className="clash-display grad1">The Insider</span>
+          <h1 className="text-4xl text-center md:text-7xl mb-4 tracking-tight font-medium">
+            <span className="clash-display grad1">About</span>
             <br />
-            <span className="clash-display font-medium text-zinc-50">
-              Network
-            </span>
+            <span className="clash-display text-zinc-50">HelixMind</span>
           </h1>
 
-          <p className="text-[0.9rem] lg:text-lg text-zinc-300/80 mb-8 max-w-2xl text-center">
-            Where elite traders share high-level intelligence, sharpen
-            strategies, and celebrate legendary wins together.
+          <p className="text-[0.9rem] lg:text-lg text-zinc-300/80 mb-8 max-w-3xl text-center">
+            HelixMind is an intelligent biotechnology platform built to simulate
+            microbial systems, analyze genomic data, and predict biological
+            outcomes before they happen.
           </p>
         </div>
 

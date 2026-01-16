@@ -59,7 +59,7 @@ const NavBar = () => {
             href="https://helix-mind.vercel.app/"
             rel="noopener noreferrer"
             target="_blank"
-            className="w-full lg:w-fit"
+            className="w-full lg:w-fit font-medium"
           >
             <Button
               id="#CaSection"
@@ -126,7 +126,7 @@ const NavBar = () => {
             <button
               onClick={() => setOpen(false)}
               className="text-base mt-4 bg-gradient-to-r from-[#b0e545] to-[#8ac122]
- px-4 py-3 rounded-full text-black clash-display hover:-translate-y-1 transition duration-200 shadow-indigo-900 capitalize"
+ px-4 py-3 rounded-full text-black clash-display hover:-translate-y-1 transition duration-200 shadow-indigo-900 capitalize font-medium"
             >
               Get Started
             </button>

@@ -2,7 +2,7 @@
 Jesse Jude
 
 Responsible for setting HelixMind’s vision, culture, and strategic direction. Focused on building the core frameworks, systems, and community standards that prioritize clarity, disciplined thinking, and long-term leverage.
-[1/15, 7:52 PM] Jessie Cs: Eremie Johnson
+[1/15, 7:52 PM] Jessie Cs: 
 Co-Founder & Software Engineer
 
 Leads HelixMind’s technical development, translating ideas into reliable systems and infrastructure. Focused on building scalable, maintainable software that supports the platform’s long-term vision.

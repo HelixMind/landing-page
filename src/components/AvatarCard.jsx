@@ -11,7 +11,7 @@ const AvatarCard = ({ avatar = '/tm1.jpg', title = "The Man", description = "A b
 
         {/* Price */}
         <div className="mb-4 mt-2">
-          <span className="text-4xl font-bold clash-display text-indigo-300">
+          <span className="text-2xl font-bold clash-display grad1">
             {title}
           </span>
         </div>

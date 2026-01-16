@@ -1,6 +1,9 @@
-import { Crown, ShieldCheck, BarChart3, GraduationCap } from "lucide-react";
+import {  ShieldCheck, BarChart3, GraduationCap,  } from "lucide-react";
 
 import { Beaker, Dna, Shuffle, Database } from "lucide-react";
+
+import { Crown, Trash2, Zap, Clock, Cpu } from "lucide-react";
+
 
 const navLinks = [
   {
@@ -17,8 +20,6 @@ const navLinks = [
 
 const logos = ["/log1.png", "/log2.png", "/log3.png", "/log4.png", "/log5.png"];
 const extendedLogos = [...logos, ...logos, ...logos, ...logos, ...logos];
-
-
 
 const features = [
   {
@@ -54,7 +55,6 @@ const features = [
     isActive: false,
   },
 ];
-
 
 const advantagePoints = [
   {
@@ -160,94 +160,108 @@ const footerLinks = [
 const footerNavItems = [
   {
     _id: "001",
-    title: 'Home',
-    href: '/'
+    title: "Home",
+    href: "/",
   },
   {
     _id: "002",
-    title: 'About',
-    href: '/about'
+    title: "About",
+    href: "/about",
   },
-]
+];
 
 const legal = [
-    {
+  {
     _id: "001",
-    title: 'Privacy Policy',
-    href: '#'
+    title: "Privacy Policy",
+    href: "#",
   },
   {
     _id: "002",
-    title: 'Terms of Services',
-    href: '#'
+    title: "Terms of Services",
+    href: "#",
   },
-]
+];
 
 const forDevelopers = [
-    {
+  {
     _id: "001",
-    title: 'GitHub Org',
-    href: 'https://github.com/HelixMind'
+    title: "GitHub Org",
+    href: "https://github.com/HelixMind",
   },
   {
     _id: "002",
-    title: 'Resources',
-    href: '#'
+    title: "Resources",
+    href: "#",
   },
-]
+];
 
 // custom
 const teamMembers = [
   {
     _id: "001",
-    name: "The Architect",
-    avatar: "/tm1.jpg",
-    role: "Founder & Chief Strategist",
+    name: "Jesse Jude",
+    avatar: "/jesse-jude.png",
+    role: "Founder & CEO",
     content:
-      "15+ years of institutional trading experience, designing the core strategies and frameworks that give the network its edge.",
+      "Responsible for setting HelixMind’s vision, culture, and strategic direction. Focused on building the core frameworks, systems, and community standards that prioritize clarity, disciplined thinking, and long-term leverage..",
   },
   {
     _id: "002",
-    name: "The Oracle",
+    name: "Eremie Johnson",
     avatar: "/tm2.jpg",
-    role: "Head of Research",
+    role: "Co-Founder & Software Engineer",
     content:
       "Leads market research and macro analysis, known for accurately anticipating major market moves.",
   },
   {
     _id: "003",
-    name: "The Executor",
-    avatar: "./tm3.jpg",
-    role: "Operations Director",
+    name: "Christopher Nzenwata",
+    avatar: "./nzenwata-christopher.jpg",
+    role: "Frontend Engineer",
     content:
-      "Ensures timely delivery of critical intelligence so members act with precision and confidence.",
+      "Designs and implements HelixMind’s user-facing experience. Focused on clarity, usability, and building interfaces that stay out of the way of serious thinking.",
+  },
+  {
+    _id: "004",
+    name: "Aaron Syme",
+    avatar: "./tm3.jpg",
+    role: "Computational Biologist",
+    content:
+      "Brings a research-driven mindset to HelixMind, applying computational and analytical approaches from biology to complex problem-solving and data interpretation.",
   },
 ];
 
 const corePrinciples = [
   {
-    title: "Exclusivity",
+    title: "Define Requirements",
     description:
-      "Access is intentionally limited to maintain a high-signal environment where serious traders can exchange insights without noise, overcrowding, or diluted opportunities.",
+      "We start by defining the problem clearly. No assumptions, no vague goals—only well-understood constraints and objectives before action.",
     icon: <Crown className="w-6 h-6" />,
   },
   {
-    title: "Trust",
+    title: "Remove Waste",
     description:
-      "Every member is carefully vetted to ensure integrity, alignment, and professionalism, allowing the community to operate on transparency, confidence, and mutual respect.",
-    icon: <ShieldCheck className="w-6 h-6" />,
+      "If something doesn’t meaningfully improve outcomes, it’s removed. We value focus over motion and eliminate distractions that dilute signal.",
+    icon: <Trash2 className="w-6 h-6" />,
   },
   {
-    title: "Performance",
+    title: "Simplify",
     description:
-      "Our strategies are measured by real outcomes, not promises. Consistent execution, disciplined risk management, and verifiable results define our reputation.",
-    icon: <BarChart3 className="w-6 h-6" />,
+      "Complexity is reduced wherever possible. Clear systems, clear thinking, and repeatable frameworks take priority over cleverness.",
+    icon: <Zap className="w-6 h-6" />,
   },
   {
-    title: "Continuous Learning",
+    title: "Speed Cycles",
     description:
-      "Markets never stand still, and neither do we. We constantly adapt, refine strategies, and share insights to stay ahead in changing market conditions.",
-    icon: <GraduationCap className="w-6 h-6" />,
+      "We shorten feedback loops to learn faster. Decisions are tested, reviewed, and refined quickly to avoid stagnation.",
+    icon: <Clock className="w-6 h-6" />,
+  },
+  {
+    title: "Automate",
+    description:
+      "Once a process is proven, we automate it. This frees attention for higher-leverage thinking and continuous improvement.",
+    icon: <Cpu className="w-6 h-6" />,
   },
 ];
 
@@ -255,17 +269,17 @@ const ourStory = [
   {
     title: "The Genesis",
     description:
-      "Founded by a group of elite traders who dominated traditional markets for over a decade, HelixMind Inner Circle emerged from the need for a truly exclusive community where high-level intelligence could be shared without dilution.",
+      "HelixMind began as a small, private group of people interested in thinking clearly about markets, systems, and decision-making. The goal was simple: create a focused space where serious ideas could be shared without noise, hype, or performative expertise.",
   },
   {
     title: "The Evolution",
     description:
-      "What started as a private group of 12 traders has evolved into a carefully curated network of 500+ elite members. Each trader brings unique insights, creating a collective intelligence that consistently outperforms the market.",
+      "Starting with just a handful of members, HelixMind is growing carefully. Each new addition is selected for curiosity, discipline, and the ability to contribute thoughtful insight. The emphasis isn’t scale—it’s signal quality and long-term value.",
   },
   {
-    title: "The Legend",
+    title: "The Present",
     description:
-      "Today, we're recognized as the most exclusive and successful trading community in the prediction markets space. Our members don't just trade - they shape markets and create legendary wins that become industry folklore.",
+      "HelixMind is still early. We’re building the foundations: shared frameworks, better tools, and a culture of rigorous thinking. The community is small, intentional, and evolving—designed to compound knowledge over time rather than chase short-term wins.",
   },
 ];
 
@@ -309,19 +323,19 @@ const topTrades = [
 const monthlyAnalyticsData = [
   {
     month: "November 2024",
-    avgReturn: 923,      // +923%
-    callsMade: 28,       // 28 Calls Made
-    winners: 27,         // 27 Winners
+    avgReturn: 923, // +923%
+    callsMade: 28, // 28 Calls Made
+    winners: 27, // 27 Winners
   },
   {
     month: "December 2024",
-    avgReturn: 1234,     // +1,234%
+    avgReturn: 1234, // +1,234%
     callsMade: 31,
     winners: 30,
   },
   {
     month: "January 2025",
-    avgReturn: 847,      // +847%
+    avgReturn: 847, // +847%
     callsMade: 23,
     winners: 22,
   },
@@ -419,7 +433,6 @@ const applicationProcess = [
       "Approved members receive exclusive access to our private channels, research, and proprietary strategies.",
   },
 ];
-
 
 export {
   navLinks,

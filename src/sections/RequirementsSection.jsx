@@ -7,7 +7,7 @@ const RequirementsSection = () => {
        
         <div className="max-w-2xl mx-auto text-center mb-12">
             <h2 className="text-3xl lg:text-5xl md:text-6xl mb-6 clash-display">
-                Membership <span className='grad-1 clash-display'>Requirements</span>
+                Membership <span className='grad1 clash-display'>Requirements</span>
             </h2>
 
             <p className="text-[0.9rem] lg:text-lg text-zinc-300/80">

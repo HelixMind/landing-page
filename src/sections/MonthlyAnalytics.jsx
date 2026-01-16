@@ -11,7 +11,7 @@ const MonthlyAnalytics = () => {
        
         <div className="max-w-2xl mx-auto text-center mb-12">
             <h2 className="text-3xl lg:text-5xl md:text-6xl mb-6 clash-display">
-                Monthly <span className='grad-1 clash-display'>Analytics</span>
+                Monthly <span className='grad1 clash-display'>Analytics</span>
             </h2>
 
             <p className="text-[0.9rem] lg:text-lg text-zinc-300/80">

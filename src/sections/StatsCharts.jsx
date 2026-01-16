@@ -39,7 +39,7 @@ const StatsChart = () => {
       <div>
         <h2 className="text-3xl lg:text-5xl text-center lg:text-left mb-6 clash-display">
           Trading Stats <br />
-          <span className="grad-1 clash-display">Overview</span>
+          <span className="grad1 clash-display">Overview</span>
         </h2>
         <p className="lg:w-[80%] text-zinc-300 text-center lg:text-left mb-6">
           Key performance indicators showing your trading efficiency and results
