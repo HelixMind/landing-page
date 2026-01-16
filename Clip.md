@@ -1,17 +1,16 @@
-Our Operating Principles
+[1/15, 7:51 PM] Jessie Cs: Founder & CEO
+Jesse Jude
 
-1. Fix Requirements
-We start by defining the problem clearly. No assumptions, no vague goals—only well-understood constraints and objectives before action.
+Responsible for setting HelixMind’s vision, culture, and strategic direction. Focused on building the core frameworks, systems, and community standards that prioritize clarity, disciplined thinking, and long-term leverage.
+[1/15, 7:52 PM] Jessie Cs: Eremie Johnson
+Co-Founder & Software Engineer
 
-2. Delete Unnecessary Work
-If something doesn’t meaningfully improve outcomes, it’s removed. We value focus over motion and eliminate distractions that dilute signal.
+Leads HelixMind’s technical development, translating ideas into reliable systems and infrastructure. Focused on building scalable, maintainable software that supports the platform’s long-term vision.
+[1/15, 7:53 PM] Jessie Cs: Christopher Nzenwata 
+Frontend Engineer
 
-3. Simplify What Remains
-Complexity is reduced wherever possible. Clear systems, clear thinking, and repeatable frameworks take priority over cleverness.
+Designs and implements HelixMind’s user-facing experience. Focused on clarity, usability, and building interfaces that stay out of the way of serious thinking.
+[1/15, 7:53 PM] Jessie Cs: Aaron Syme
+Computational Biologist
 
-4. Accelerate Cycle Time
-We shorten feedback loops to learn faster. Decisions are tested, reviewed, and refined quickly to avoid stagnation.
-
-5. Automate
-Once a process is proven, we automate it. This frees attention for higher-leverage thinking and continuous improvement.
-.
+Brings a research-driven mindset to HelixMind, applying computational and analytical approaches from biology to complex problem-solving and data interpretation.
