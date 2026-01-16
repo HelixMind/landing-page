@@ -38,3 +38,16 @@ HelixMind enables earlier decisions, smarter experiments, and better outcomes.
             </p>
           </div>
         </div>
+
+
+		The Genesis
+
+HelixMind began as a small, private group of people interested in thinking clearly about markets, systems, and decision-making. The goal was simple: create a focused space where serious ideas could be shared without noise, hype, or performative expertise.
+
+The Evolution
+
+Starting with just a handful of members, HelixMind is growing carefully. Each new addition is selected for curiosity, discipline, and the ability to contribute thoughtful insight. The emphasis isn’t scale—it’s signal quality and long-term value.
+
+Where We Are Now
+
+HelixMind is still early. We’re building the foundations: shared frameworks, better tools, and a culture of rigorous thinking. The community is small, intentional, and evolving—designed to compound knowledge over time rather than chase short-term wins.
