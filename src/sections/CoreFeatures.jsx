@@ -54,9 +54,9 @@ const CoreFeatures = () => {
                     onMouseEnter={() => handleHover(index)}
                     onMouseLeave={handleLeave}
                     onClick={() => setActiveIndex(index)}
-                    className={`centered-row gap-4 cursor-pointer hover:bg-indigo-500/10 p-2 transition-all duration-300 ease-out border rounded-xl ${
+                    className={`centered-row gap-4 cursor-pointer hover:bg-gray-500/10 p-2 transition-all duration-300 ease-out border rounded-xl ${
                       activeIndex === index
-                        ? "border-primary/40 bg-indigo-500/10"
+                        ? "border-primary/40 bg-gray-500/10"
                         : "border-transparent"
                     }`}
                   >

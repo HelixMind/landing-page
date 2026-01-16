@@ -1,6 +1,6 @@
 import { Crown, ShieldCheck, BarChart3, GraduationCap } from "lucide-react";
 
-import { Brain, Dna, Shuffle, Layers } from "lucide-react";
+import { Beaker, Dna, Shuffle, Database } from "lucide-react";
 
 const navLinks = [
   {
@@ -22,38 +22,39 @@ const extendedLogos = [...logos, ...logos, ...logos, ...logos, ...logos];
 
 const features = [
   {
-    title: "AI Biological Predictions",
+    title: "DNA Scanner",
     description:
-      "Generate biologically meaningful insights using advanced AI models trained on complex genomic and molecular data.",
-    icon: <Brain className="w-6 h-6" />,
-    image: "/fit1.png",
+      "Scan and analyze genomic sequences with automated interpretation. Upload FASTA files, extract genetic patterns, and uncover biologically meaningful insights in seconds.",
+    icon: <Dna className="w-6 h-6" />,
+    image: "/dna-scanner.PNG",
     isActive: true,
   },
   {
-    title: "Genomic Data Processing",
+    title: "Mutation Simulator",
     description:
-      "Accurately parse and analyze FASTA and genomic datasets through reliable bioinformatics pipelines.",
-    icon: <Dna className="w-6 h-6" />,
-    image: "/fit3.png",
-    isActive: false,
-  },
-  {
-    title: "Mutation Simulation",
-    description:
-      "Simulate mutations and evolutionary pathways to explore outcomes and validate scientific hypotheses.",
+      "Simulate gene mutations and evolutionary changes to predict microbial behavior, resistance development, and possible biological outcomes.",
     icon: <Shuffle className="w-6 h-6" />,
-    image: "/fit4.png",
+    image: "/mutation-sim.PNG",
     isActive: false,
   },
   {
-    title: "End-to-End Research Workflow",
+    title: "Microbe Lab",
     description:
-      "From raw biological data to actionable insights, HelixMind streamlines the entire research process.",
-    icon: <Layers className="w-6 h-6" />,
-    image: "/fit2.png",
+      "A virtual microbial environment where digital microbes can be grown, observed, and tested to explore hypotheses without wet-lab limitations.",
+    icon: <Beaker className="w-6 h-6" />,
+    image: "/microbe-lab.PNG",
+    isActive: false,
+  },
+  {
+    title: "AMR Database",
+    description:
+      "Access and analyze antimicrobial resistance data to study resistance patterns, track microbial threats, and support predictive research.",
+    icon: <Database className="w-6 h-6" />,
+    image: "/amr-database.PNG",
     isActive: false,
   },
 ];
+
 
 const advantagePoints = [
   {
