@@ -1,53 +1,16 @@
-Header
-Predict Drug Resistance Before It Happens
+Our Operating Principles
 
-Sub Header
-HelixMind turns microbial genomes into real-time, predictive intelligence — helping researchers and labs stay ahead of antimicrobial resistance.
+1. Fix Requirements
+We start by defining the problem clearly. No assumptions, no vague goals—only well-understood constraints and objectives before action.
 
-Insights 
-Antimicrobial resistance costs the global economy $300B–$1T every year — and growing.
+2. Delete Unnecessary Work
+If something doesn’t meaningfully improve outcomes, it’s removed. We value focus over motion and eliminate distractions that dilute signal.
 
-Metrics / Proof Points
-	•	AMR causes ~1.2M direct deaths annually
-	•	Costs healthcare systems $300B+ every year
-	•	By 2050, AMR could cost the world $1–3T annually
-	•	Genomic ML models have demonstrated >90% predictive accuracy in peer-reviewed studies
+3. Simplify What Remains
+Complexity is reduced wherever possible. Clear systems, clear thinking, and repeatable frameworks take priority over cleverness.
 
-HelixMind enables earlier decisions, smarter experiments, and better outcomes.
+4. Accelerate Cycle Time
+We shorten feedback loops to learn faster. Decisions are tested, reviewed, and refined quickly to avoid stagnation.
 
-
-        <div className="space-y-6 insight-reveal">
-          <div className="p-5 rounded-xl bg-white/5 border border-white/10">
-            <h5 className="font-semibold mb-2">Earlier Scientific Decisions</h5>
-            <p className="text-sm text-zinc-300/80">
-              Identify resistance patterns before they appear clinically, enabling proactive experimental design.
-            </p>
-          </div>
-
-          <div className="p-5 rounded-xl bg-white/5 border border-white/10">
-            <h5 className="font-semibold mb-2">Smarter Experiments</h5>
-            <p className="text-sm text-zinc-300/80">
-              Prioritize promising mutations, compounds, and microbial targets using predictive genomic intelligence.
-            </p>
-          </div>
-
-          <div className="p-5 rounded-xl bg-white/5 border border-white/10">
-            <h5 className="font-semibold mb-2">Better Outcomes</h5>
-            <p className="text-sm text-zinc-300/80">
-              Reduce trial-and-error, shorten research cycles, and improve therapeutic success rates.
-            </p>
-          </div>
-        </div>
-
-
-		The Genesis
-
-HelixMind began as a small, private group of people interested in thinking clearly about markets, systems, and decision-making. The goal was simple: create a focused space where serious ideas could be shared without noise, hype, or performative expertise.
-
-The Evolution
-
-Starting with just a handful of members, HelixMind is growing carefully. Each new addition is selected for curiosity, discipline, and the ability to contribute thoughtful insight. The emphasis isn’t scale—it’s signal quality and long-term value.
-
-Where We Are Now
-
-HelixMind is still early. We’re building the foundations: shared frameworks, better tools, and a culture of rigorous thinking. The community is small, intentional, and evolving—designed to compound knowledge over time rather than chase short-term wins.
+5. Automate
+Once a process is proven, we automate it. This frees attention for higher-leverage thinking and continuous improvement.
