@@ -209,7 +209,7 @@ const teamMembers = [
   {
     _id: "002",
     name: "Eremie Johnson",
-    avatar: "/tm2.jpg",
+    avatar: "/johnson-eremie.jpeg",
     role: "Co-Founder & Software Engineer",
     content:
       "Leads market research and macro analysis, known for accurately anticipating major market moves.",
@@ -224,6 +224,14 @@ const teamMembers = [
   },
   {
     _id: "004",
+    name: "Micheal Great",
+    avatar: "./great-ebuka.jpeg",
+    role: "Computational Biologist",
+    content:
+      "Brings a research-driven contributions to HelixMind, applying computational and scientific approaches from biology to complex problem-solving and data interpretation.",
+  },
+  {
+    _id: "005",
     name: "Aaron Syme",
     avatar: "./tm3.jpg",
     role: "Computational Biologist",
