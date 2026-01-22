@@ -25,7 +25,7 @@ const Hero = () => {
             <span className="clash-display grad1">Unlock AI Driven</span>
             <br />
             <span className="clash-display text-zinc-50">
-              Biologcal Discovery
+              Biological Discovery
             </span>
           </h1>
 
