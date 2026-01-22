@@ -230,14 +230,6 @@ const teamMembers = [
     content:
       "Brings a research-driven contributions to HelixMind, applying computational and scientific approaches from biology to complex problem-solving and data interpretation.",
   },
-  {
-    _id: "005",
-    name: "Aaron Syme",
-    avatar: "./tm3.jpg",
-    role: "Computational Biologist",
-    content:
-      "Brings a research-driven mindset to HelixMind, applying computational and analytical approaches from biology to complex problem-solving and data interpretation.",
-  },
 ];
 
 const corePrinciples = [
