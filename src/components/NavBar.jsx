@@ -56,7 +56,7 @@ const NavBar = () => {
           </ul>
 
           <a
-            href="https://helix-mind.vercel.app/"
+            href="https://helix-frontend-v2.vercel.app"
             rel="noopener noreferrer"
             target="_blank"
             className="w-full lg:w-fit font-medium"
@@ -119,7 +119,7 @@ const NavBar = () => {
           ))}
 
           <a
-            href="https://helix-mind.vercel.app/"
+            href="https://helix-frontend-v2.vercel.app"
             rel="noopener noreferrer"
             target="_blank"
           >

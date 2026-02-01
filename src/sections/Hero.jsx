@@ -37,7 +37,7 @@ const Hero = () => {
           {/* cta */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://helix-mind.vercel.app/"
+              href="https://helix-frontend-v2.vercel.app"
               rel="noopener noreferrer"
               target="_blank"
               className="w-full lg:w-fit"

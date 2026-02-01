@@ -21,9 +21,11 @@ const CaSection = () => {
           Discover why researches trust HelixMind for AI-driven research.
         </p>
 
+        <a href="https://helix-frontend-v2.vercel.app" target="_blank" rel="noopener noreferer">
         <Button className="py-6">
           Get Started
         </Button>
+        </a>
       </div>
     </section>
   );
