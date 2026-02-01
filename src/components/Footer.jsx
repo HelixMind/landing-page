@@ -4,10 +4,11 @@ import { NavLink } from "react-router";
 // lib
 import { cn } from "../lib/utils.js";
 
-import { LuCommand } from "react-icons/lu";
-import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+// icons
+import { SiCalendly } from "react-icons/si";
 
-import { legal, forDevelopers ,footerNavItems } from "../../constants";
+// constants
+import { legal, forDevelopers, footerNavItems } from "../../constants";
 
 const Footer = () => {
   return (
@@ -32,23 +33,51 @@ const Footer = () => {
 
               {/* Social Icons */}
               <div className="flex space-x-4">
-                <button className="hover:text-indigo-400 transition-colors ">
-                  <FaInstagram className="w-6 h-6" />
-                </button>
+                {/* Email */}
+                <a
+                  href="mailto:helixmind550@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-indigo-400 transition-colors"
+                  aria-label="Email"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1m17 4.238l-7.928 7.1L4 7.216V19h16zM4.511 5l7.55 6.662L19.502 5z"/></svg>
+                </a>
 
-                <button className="hover:text-indigo-400 transition-colors">
-                  <FaFacebookF className="w-6 h-6" />
-                </button>
+                {/* Calendly */}
+                <a
+                  href="https://calendly.com/helixmind550"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-indigo-400 transition-colors"
+                  aria-label="Calendly"
+                >
+                  <SiCalendly className="w-6 h-6" />
+                </a>
 
-                <button className="hover:text-indigo-400 transition-colors">
-                  <FaLinkedinIn className="w-6 h-6" />
-                </button>
+                {/* X (Twitter) */}
+                <a
+                  href="https://x.com/HelixMind_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-indigo-400 transition-colors"
+                  aria-label="X"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24"><path fill="currentColor" d="m17.687 3.063l-4.996 5.711l-4.32-5.711H2.112l7.477 9.776l-7.086 8.099h3.034l5.469-6.25l4.78 6.25h6.102l-7.794-10.304l6.625-7.571zm-1.064 16.06L5.654 4.782h1.803l10.846 14.34z"/></svg>
+                </a>
+
+                {/* Phone */}
+                <a
+                  href="tel:+2348121295914"
+                  className="hover:text-indigo-400 transition-colors"
+                  aria-label="Phone"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 24 24"><path fill="currentColor" d="M17.707 12.293a1 1 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a1 1 0 0 0 0-1.414l-4-4a1 1 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435c.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a1 1 0 0 0 0-1.414zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712c-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414L9.586 7L8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.99.99 0 0 0 .912-.271L17 14.414L19.586 17z"/></svg>
+                </a>
               </div>
             </div>
 
-            {/* Footer Links */}
-
-            {/* pages */}
+            {/* Pages */}
             <div className="space-y-4">
               <h4 className="clash-display text-base text-zinc-200 font-medium">
                 Pages
@@ -57,7 +86,6 @@ const Footer = () => {
                 {footerNavItems.map(({ _id, title, href }) => (
                   <li key={_id}>
                     <NavLink
-                      key={_id}
                       to={href}
                       className={({ isActive }) =>
                         cn(
@@ -73,7 +101,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* for developers */}
+            {/* For Developers */}
             <div className="space-y-4">
               <h4 className="clash-display text-base text-zinc-200 font-medium capitalize">
                 For Developers
@@ -82,7 +110,6 @@ const Footer = () => {
                 {forDevelopers.map(({ _id, title, href }) => (
                   <li key={_id}>
                     <a
-                      key={_id}
                       href={href}
                       className="text-sm text-zinc-400 hover:text-primary hover:ml-3 transition2"
                     >
@@ -93,7 +120,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* legal */}
+            {/* Legal */}
             <div className="space-y-4">
               <h4 className="clash-display text-base text-zinc-200 font-medium capitalize">
                 Legal
@@ -102,7 +129,6 @@ const Footer = () => {
                 {legal.map(({ _id, title, href }) => (
                   <li key={_id}>
                     <a
-                      key={_id}
                       href={href}
                       className="text-sm text-zinc-400 hover:text-primary hover:ml-3 transition2"
                     >
@@ -112,7 +138,6 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-
           </div>
 
           {/* Bottom Section */}
