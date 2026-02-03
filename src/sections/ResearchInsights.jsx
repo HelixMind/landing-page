@@ -48,7 +48,7 @@ const ResearchInsights = () => {
       {/* ===== Content ===== */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
         {/* ===== Chart Card ===== */}
-        <CardSpotlight className="py-8 pb-6 h-fit">
+        <Card className="bg-neutral-900 py-8 pb-6 h-fit border-0">
           <CardHeader>
             <CardTitle className="text-sm uppercase tracking-wider text-white font-medium">
               Global Impact Insight
@@ -66,7 +66,7 @@ const ResearchInsights = () => {
               <BarChart className="text-xs" data={chartData}>
                 <CartesianGrid
                   strokeDasharray="3 3"
-                  stroke="rgba(255,255,255,0.1)"
+                  stroke="rgba(255,255,255,0.5)"
                 />
                 <XAxis dataKey="year" stroke="#d4d4d8" />
                 <YAxis
@@ -85,7 +85,7 @@ const ResearchInsights = () => {
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
-        </CardSpotlight>
+        </Card>
 
         {/* ===== Data Summary Card ===== */}
         <CardSpotlight className=" p-8 flex flex-col justify-center gap-8">
